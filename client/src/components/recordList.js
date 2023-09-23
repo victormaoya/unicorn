@@ -20,7 +20,7 @@ const Record = (props) => (
 );
 
 export default function RecordList() {
-    const [records, setRecords] =useState([]);
+    const [records, setRecords] = useState([]);
 
     // This method fetches the records from the database.
     useEffect(() => {

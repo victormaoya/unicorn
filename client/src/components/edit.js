@@ -1,4 +1,4 @@
-import React, { useState, useEffect }from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router';
 
 export default function Edit() {
@@ -14,7 +14,7 @@ export default function Edit() {
     useEffect(() => {
         async function fetchData() {
             const id = params.id.toString();
-            const response = await fetch(`http://localhost:5050/record/${params.id.toString()}`);
+            const response = await fetch(`http://localhost:5050/record/${id}`);
 
             if (!response.ok) {
                 const message = `An error has occurred: ${response.statusText}`;
