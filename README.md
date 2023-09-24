@@ -1,6 +1,6 @@
 ## unicorn
 
-A fullstack app written in the renowned MERN stack that performs CRUD operations. Here are the technologies that were used on the frontend and backend
+A fullstack app written in the renowned **MERN** stack that performs **CRUD** operations. Here are the technologies that were used on the frontend and backend
 
 ### Frontend
 - React
@@ -19,4 +19,4 @@ Launch the terminal.
 
 ENJOY.
 
-Attributed to [https://www.mongodb.com/languages/mern-stack-tutorial](MongoDB, Inc.)
+Attributed to [MongoDB, Inc.](https://www.mongodb.com/languages/mern-stack-tutorial)
